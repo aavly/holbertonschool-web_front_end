@@ -11,10 +11,20 @@ body {
 	line-height: var(--line-height-base);
 }
 
-a[href]:visited:hover:active{
+a[href]{
 	color: #161616;
-	text-decoration: underline;
+	text-decoration: none;
+}
+
+a[href]:visited {
 	font-style: italic;
+}
+
+a[href]:visited:hover {
+	text-decoration: underline;
+}
+
+a[href]:visited:hover:active{
 	background-color: var(--color-light-grey);
 }
 
